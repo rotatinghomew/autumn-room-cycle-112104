@@ -366,6 +366,32 @@
           10
         ]
       ]
+    },
+    "service_windows": {
+      "fields": [
+        "booking",
+        "qualified_step",
+        "earliest",
+        "latest",
+        "min_minutes"
+      ],
+      "meaning": "值班交接单上的儿童床作业窗；独立于普通清洁。",
+      "rows": [
+        [
+          "f1",
+          "儿童床",
+          "11:50",
+          "13:05",
+          33
+        ],
+        [
+          "f2",
+          "儿童床",
+          "12:30",
+          "13:27",
+          34
+        ]
+      ]
     }
   }
 }

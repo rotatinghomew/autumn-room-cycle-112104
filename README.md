@@ -14,6 +14,7 @@
 - `shifts`：候选班次含人员覆盖窗；跨楼移动须耗时。 列：`option`, `person`, `building`, `start`, `end`。
 - `handover`：登记的新交接时间。 列：`booking`, `released_by`, `seq`。
 - `transit`：楼间最短步行时间。 列：`from_building`, `to_building`, `minutes`。
+- `service_windows`：值班交接单上的儿童床作业窗；独立于普通清洁。 列：`booking`, `qualified_step`, `earliest`, `latest`, `min_minutes`。
 
 ## 检视
 
